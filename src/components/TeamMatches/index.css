@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.matches {
+  background-image: linear-gradient(#d91c1f, #1e293b);
+  padding: 15px;
+}
+
+.team-img {
+  height: 200px;
+  width: 100%;
+}
+.team-heading {
+  color: #ffffff;
+  font-size: 20px;
+}
+.forwrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+  .matches {
+    padding: 40px;
+  }
+  .team-heading {
+    font-size: 36px;
+  }
+  .team-img {
+    height: 400px;
+  }
+}

@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.match-card {
+  background-color: #0f172a;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 7px;
+  width: 44%;
+  text-align: center;
+  border-radius: 12px;
+}
+.match-img {
+  height: 70px;
+  width: 60px;
+}
+.match-team {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+}
+.match-r {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 10px;
+}
+.match-s {
+  font-family: 'Bree Serif';
+  color: #e31a1a;
+  font-weight: 500;
+  font-size: 16px;
+}
+.match-s2 {
+  font-family: 'Bree Serif';
+  color: #18ed66;
+  font-weight: 500;
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  .match-card {
+    width: 31%;
+  }
+  .match-img {
+    height: 85px;
+    width: 70px;
+  }
+  .match-team {
+    font-size: 22px;
+  }
+  .match-r {
+    font-size: 16px;
+  }
+  .match-s {
+    font-size: 22px;
+  }
+  .match-s2 {
+    font-size: 22px;
+  }
+}
